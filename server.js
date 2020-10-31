@@ -4,12 +4,10 @@ var serveStatic = require('serve-static')
 
 var app = express()
 // app.use(serveStatic(path.join(__dirname, 'dist')))
+app.use(express.static(path.join(__dirname,"client", "build")));
 
-app.get("*", (req, res) => {
-  let url = path.join(__dirname, '../client/build', 'index.html');
-  if (!url.startsWith('/app/')) // since we're on local windows
-    url = url.substring(1);
-  res.sendFile(url);
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "build","client", "index.html"));
 });
 
 var port = process.env.PORT || 8000
