@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
   "name": "nehanakrani.github.io",
+  "description": "a really cool app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "0.10.41",
+    "npm": "1.4.29"
   }
 }
+
