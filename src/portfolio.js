@@ -9,7 +9,7 @@ const greeting = {
   username: "NehaNakrani",
   title: "Hey, I'm Neha",
   subTitle: emoji("A software Developer 👩‍💻 and Guitarist with featuring expertise in Ruby on Rails, web frameworks with passion for new technologies mashups and pursuing the knack of open-source contribution."),
-  resumeLink: "https://drive.google.com/file/d/1oHAeU1jnC7myccAgcrRPSrfmhWG2lQhk/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/10JpyVY4Jp_9IG98BtBGD30vfGU8Ntvuv/view?usp=sharing"
 };
 
 const socialMediaLinks = {
