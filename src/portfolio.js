@@ -217,10 +217,16 @@ const achievementSection = {
       footerLink: [{ name: "View Certifications", url: "https://drive.google.com/file/d/1qnO3uwT26CfxcFZ-WpD0L6ZI1tePMRhj/view?usp=sharing" }]
     },
     {
-      title: "Python Express Gujarat - 2016",
-      subtitle: "PythonExpress brings tutors, organizations and students together to spread the love of Python far and wide",
-      image: require("./assets/images/pythonexplogo.jpg"),
-      footerLink: [{ name: "View Certifications", url: "https://drive.google.com/file/d/1gHNDmbjdM9UZS-t1MQEQu_d41Sz3EwF8/view?usp=sharing" }]
+      title: "Python Certification Course",
+      subtitle: "Skytech Informatics Certificate.",
+      image: require("./assets/images/pylogo.png"),
+      footerLink: [{ name: "View Certifications", url: "https://drive.google.com/file/d/1YXtHIYQRGbpeRVTYndoxz24QvTEsaiUX/view?usp=sharing" }]
+    },
+    {
+      title: "Machine Learning, Data Science and Deep Learning with Python",
+      subtitle: "Udemy - Sundog Education by Frank Kane, Frank Kane on",
+      image: require("./assets/images/machine-banner.png"),
+      footerLink: [{ name: "View Certifications", url: "https://www.udemy.com/certificate/UC-da7f9dd3-46eb-48e6-9c00-4294135f3a8d" }]
     },
     {
       title: "Python Certification Course",
